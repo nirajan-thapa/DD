@@ -68,6 +68,11 @@ dependencies {
   implementation "org.koin:koin-android-viewmodel:2.2.1"
 
   testImplementation 'junit:junit:4.12'
+  // Koin for Unit tests
+  testImplementation "org.koin:koin-test:2.2.1"
+  testImplementation "io.mockk:mockk:1.10.2"
+  testImplementation "androidx.arch.core:core-testing:2.1.0"
+  androidTestImplementation "io.mockk:mockk-android:1.10.2"
   androidTestImplementation 'androidx.test.ext:junit:1.1.2'
   androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }

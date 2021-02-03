@@ -1,5 +1,6 @@
 package com.ddlite.restaurants.ui.list
 
+import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.ddlite.restaurants.BaseViewModel
@@ -34,7 +35,8 @@ class RestaurantListViewModel(
         )
     }
 
-    private fun getRestaurantList(
+    @VisibleForTesting(otherwise = VisibleForTesting.PRIVATE)
+    fun getRestaurantList(
         latitude: String,
         longitude: String,
         offset: Int,
