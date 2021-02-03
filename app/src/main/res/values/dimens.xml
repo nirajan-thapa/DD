@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="default_small_margin">12dp</dimen>
+  <dimen name="default_medium_margin">24dp</dimen>
+  <dimen name="medium_icon">120dp</dimen>
+</resources>
